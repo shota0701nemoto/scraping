@@ -1,26 +1,18 @@
-# README
+# なぜ作ったか？
+前職で競合調査のため記事のスクレイピングをしていて、railsでもできるいうことを知り興味を持ったから。
+# 使い方
+* 使用するのはscraping.rbのみ。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* scraping.rbを開く。
 
-Things you may want to cover:
+* 該当部分にスクレイピングしたいサイトのURLを記入する。
 
-* Ruby version
+* 該当部分に取り出したい部分を入力する。
 
-* System dependencies
+* ターミナルでbundle exec ruby Scraping.rbを実行する。
 
-* Configuration
+# 感想
+ページネーションを考えるのが多少難しそうに感じました。
+関数を用いてのスクレイピングと比べ難易度は難しめでした。（情報が少ない。）
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# rails-Scraping
-# scraping
